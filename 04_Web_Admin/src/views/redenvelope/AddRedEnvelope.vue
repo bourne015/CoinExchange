@@ -91,7 +91,7 @@
 </template>
 
 <script>
-import smeditor from '@/SMEditor/SMEditor.vue'
+import smeditor from '@/smeditor/SMEditor.vue'
 
 import { BASICURL,  envelopeAdd, envelopeModify, envelopeDetail } from '@/service/getData';
 import { getStore, removeStore, setStore } from '@/config/storage';

@@ -194,7 +194,7 @@
 
 <script>
 import dtime from 'time-formater'
-import smeditor from '@/SMEditor/SMEditor.vue'
+import smeditor from '@/smeditor/SMEditor.vue'
 
 import { BASICURL,  addActivity, modifyActivity, activityDetail } from '@/service/getData';
 import { getStore, removeStore, setStore } from '@/config/storage';

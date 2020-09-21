@@ -62,7 +62,7 @@
 
 <script>
 
-import smeditor from '@/SMEditor/SMEditor.vue'
+import smeditor from '@/smeditor/SMEditor.vue'
 
 
 import { BASICURL,  addHelpManage, helpManageDetail, updateHelpManage } from '@/service/getData';

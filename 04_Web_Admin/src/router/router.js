@@ -3,6 +3,7 @@ import Cookies from "js-cookie";
 import { setStore, getStore, removeStore } from "@/config/storage.js"
 
 
+
 // 不作为Main组件的子页面展示的页面单独写，如下
 export const loginRouter = {
     path: '/login',
@@ -90,9 +91,9 @@ let findSlideArr = [
     { id: 23, path: 'coin', icon: 'document', component: resolve => { require(['@/views/system/Coin.vue'], resolve) } },
     { id: 94, path: 'userwithdrawals', icon: 'document', component: resolve => { require(['@/views/finance/WithdrawalsExamine.vue'], resolve) } },
     { id: 9, path: 'advertise', icon: 'document', component: resolve => { require(['@/views/content/AddAdvertisement.vue'], resolve) } },
-    { id: 10, path: 'helpManage', icon: 'document', component: resolve => { require(['@/views/content/helpManage.vue'], resolve) } },
+    { id: 10, path: 'helpManage', icon: 'document', component: resolve => { require(['@/views/content/HelpManage.vue'], resolve) } },
     { id: 26, path: 'announcemanage', icon: 'document', component: resolve => { require(['@/views/content/AnnounceManage.vue'], resolve) } },
-    { id: 12, path: 'membermanage', icon: 'document', component: resolve => { require(['@/views/member/MemberManage.vue'], resolve) } },
+    { id: 12, path: 'membermanage', icon: 'document', component: resolve => { require(['@/views/member/memberManage.vue'], resolve) } },
     { id: 19, path: 'tradedetail', icon: 'document', component: resolve => { require(['@/views/finance/TradeDetail.vue'], resolve) } },
     { id: 131, path: 'changecoindetail', icon: 'document', component: resolve => { require(['@/views/finance/ChargeCoinDetail.vue'], resolve) } },
     { id: 95, path: 'feemanage', icon: 'document', component: resolve => { require(['@/views/finance/FeeManage.vue'], resolve) } },

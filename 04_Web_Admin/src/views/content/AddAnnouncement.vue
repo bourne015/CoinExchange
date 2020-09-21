@@ -60,7 +60,7 @@
 
 <script>
 
-import smeditor from '@/SMEditor/SMEditor.vue'
+import smeditor from '@/smeditor/SMEditor.vue'
 
 import { BASICURL,  addHelpManage, helpManageDetail, addAnnounce, updateAnnounce, announceDetail } from '@/service/getData';
 import { getStore, removeStore, setStore } from '@/config/storage';
